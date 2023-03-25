@@ -1,12 +1,6 @@
-salario = 0
-salario = float(input("Digite o salário do colaborador:"))
-if salario <= 1903.98:
-    print(f"O colaborador isento de imposto.")
-elif salario <= 2826.65:
-    print(f"O colaborador deve pagar R$ 142,80 de imposto.")
-elif salario <= 3751.05:
-    print(f"O colaborador deve pagar R% 354,80 de imposto.")
-elif salario <= 4664.68:
-    print(f"O colaborador deve pagar R% 638.13 de imposto.")
+login = input("Digite o seu login:")
+senha = input("Digite sua senha:")
+if login == "userpy" and senha == "teste123":
+    print("Bem-vindo userpy01")
 else:
-    print(f"O colaborador deve pagar R$ 869,36 de imposto.")
+    print("Login falhou, verifique sua senha e tente novamente")
